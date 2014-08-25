@@ -1,0 +1,164 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\nodejs\\\\node.exe',
+1 verbose cli   'D:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'stream-adventure@2.4.3' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 verbose node symlink D:\nodejs\\node.exe
+5 verbose cache add [ 'stream-adventure@2.4.3', null ]
+6 verbose cache add name=undefined spec="stream-adventure@2.4.3" args=["stream-adventure@2.4.3",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'stream-adventure@2.4.3',
+7 verbose parsed url   path: 'stream-adventure@2.4.3',
+7 verbose parsed url   href: 'stream-adventure@2.4.3' }
+8 verbose cache add name="stream-adventure" spec="2.4.3" args=["stream-adventure","2.4.3"]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: '2.4.3',
+9 verbose parsed url   path: '2.4.3',
+9 verbose parsed url   href: '2.4.3' }
+10 verbose addNamed [ 'stream-adventure', '2.4.3' ]
+11 verbose addNamed [ '2.4.3', '2.4.3' ]
+12 silly lockFile 2f43b2be-stream-adventure-2-4-3 stream-adventure@2.4.3
+13 verbose lock stream-adventure@2.4.3 C:\Users\wing\AppData\Roaming\npm-cache\2f43b2be-stream-adventure-2-4-3.lock
+14 verbose url raw stream-adventure
+15 verbose url resolving [ 'https://registry.npmjs.org/', './stream-adventure' ]
+16 verbose url resolved https://registry.npmjs.org/stream-adventure
+17 info trying registry request attempt 1 at 17:32:21
+18 verbose etag "7KPTXU587ERN73AP8G9SMWLRK"
+19 http GET https://registry.npmjs.org/stream-adventure
+20 http 304 https://registry.npmjs.org/stream-adventure
+21 silly registry.get cb [ 304,
+21 silly registry.get   { date: 'Fri, 22 Aug 2014 09:32:40 GMT',
+21 silly registry.get     server: 'Apache',
+21 silly registry.get     via: '1.1 varnish',
+21 silly registry.get     'last-modified': 'Fri, 22 Aug 2014 09:32:41 GMT',
+21 silly registry.get     'cache-control': 'max-age=60',
+21 silly registry.get     etag: '"7KPTXU587ERN73AP8G9SMWLRK"',
+21 silly registry.get     'x-served-by': 'cache-ty67-TYO',
+21 silly registry.get     'x-cache': 'MISS',
+21 silly registry.get     'x-cache-hits': '0',
+21 silly registry.get     'x-timer': 'S1408699960.445814,VS0,VE737',
+21 silly registry.get     vary: 'Accept',
+21 silly registry.get     'content-length': '0',
+21 silly registry.get     'keep-alive': 'timeout=10, max=50',
+21 silly registry.get     connection: 'Keep-Alive' } ]
+22 verbose etag stream-adventure from cache
+23 silly lockFile d0c5540c-nture-stream-adventure-2-4-3-tgz https://registry.npmjs.org/stream-adventure/-/stream-adventure-2.4.3.tgz
+24 verbose lock https://registry.npmjs.org/stream-adventure/-/stream-adventure-2.4.3.tgz C:\Users\wing\AppData\Roaming\npm-cache\d0c5540c-nture-stream-adventure-2-4-3-tgz.lock
+25 verbose addRemoteTarball [ 'https://registry.npmjs.org/stream-adventure/-/stream-adventure-2.4.3.tgz',
+25 verbose addRemoteTarball   'fc292002af988dd45261e4b050b35216a9949b01' ]
+26 info retry fetch attempt 1 at 17:32:22
+27 verbose fetch to= C:\Users\wing\AppData\Local\Temp\npm-14684-0zGgRg6R\registry.npmjs.org\stream-adventure\-\stream-adventure-2.4.3.tgz
+28 http GET https://registry.npmjs.org/stream-adventure/-/stream-adventure-2.4.3.tgz
+29 http 200 https://registry.npmjs.org/stream-adventure/-/stream-adventure-2.4.3.tgz
+30 silly lockFile d0c5540c-nture-stream-adventure-2-4-3-tgz https://registry.npmjs.org/stream-adventure/-/stream-adventure-2.4.3.tgz
+31 silly lockFile d0c5540c-nture-stream-adventure-2-4-3-tgz https://registry.npmjs.org/stream-adventure/-/stream-adventure-2.4.3.tgz
+32 silly lockFile 2f43b2be-stream-adventure-2-4-3 stream-adventure@2.4.3
+33 silly lockFile 2f43b2be-stream-adventure-2-4-3 stream-adventure@2.4.3
+34 silly resolved [ { name: 'stream-adventure',
+34 silly resolved     version: '2.4.3',
+34 silly resolved     description: 'an educational stream adventure',
+34 silly resolved     bin: { 'stream-adventure': 'bin/cmd.js' },
+34 silly resolved     dependencies:
+34 silly resolved      { x256: '~0.0.1',
+34 silly resolved        optimist: '~0.5.2',
+34 silly resolved        through: '~2.3.4',
+34 silly resolved        'tuple-stream': '~0.0.2',
+34 silly resolved        'terminal-menu': '~0.0.0',
+34 silly resolved        split: '~0.2.5',
+34 silly resolved        duplexer: '~0.1.1',
+34 silly resolved        'concat-stream': '~1.0.0',
+34 silly resolved        hyperquest: '~0.1.6',
+34 silly resolved        request: '~2.21.0',
+34 silly resolved        chunky: '~0.0.0',
+34 silly resolved        clone: '~0.1.9',
+34 silly resolved        wordwrap: '~0.0.2',
+34 silly resolved        tar: '~0.1.17',
+34 silly resolved        'websocket-stream': '~0.2.0',
+34 silly resolved        trumpet: '~1.6.2',
+34 silly resolved        ws: '~0.4.25',
+34 silly resolved        browserify: '~2.35.4',
+34 silly resolved        mkdirp: '~0.3.5',
+34 silly resolved        'stream-combiner': '~0.0.4',
+34 silly resolved        provinces: '~0.2.0' },
+34 silly resolved     devDependencies: { tape: '~2.3.0' },
+34 silly resolved     scripts: { test: 'tape test/*.js' },
+34 silly resolved     repository:
+34 silly resolved      { type: 'git',
+34 silly resolved        url: 'git://github.com/substack/stream-adventure.git' },
+34 silly resolved     homepage: 'https://github.com/substack/stream-adventure',
+34 silly resolved     keywords: [ 'stream', 'educational', 'guide', 'tutorial', 'learn' ],
+34 silly resolved     author:
+34 silly resolved      { name: 'James Halliday',
+34 silly resolved        email: 'mail@substack.net',
+34 silly resolved        url: 'http://substack.net' },
+34 silly resolved     license: 'MIT',
+34 silly resolved     bugs: { url: 'https://github.com/substack/stream-adventure/issues' },
+34 silly resolved     _id: 'stream-adventure@2.4.3',
+34 silly resolved     dist:
+34 silly resolved      { shasum: 'fc292002af988dd45261e4b050b35216a9949b01',
+34 silly resolved        tarball: 'http://registry.npmjs.org/stream-adventure/-/stream-adventure-2.4.3.tgz' },
+34 silly resolved     _from: 'stream-adventure@2.4.3',
+34 silly resolved     _npmVersion: '1.3.21',
+34 silly resolved     _npmUser: { name: 'substack', email: 'mail@substack.net' },
+34 silly resolved     maintainers: [ [Object] ],
+34 silly resolved     directories: {},
+34 silly resolved     _shasum: 'fc292002af988dd45261e4b050b35216a9949b01',
+34 silly resolved     _resolved: 'https://registry.npmjs.org/stream-adventure/-/stream-adventure-2.4.3.tgz' } ]
+35 info install stream-adventure@2.4.3 into C:\Users\wing\AppData\Roaming\npm
+36 info installOne stream-adventure@2.4.3
+37 info C:\Users\wing\AppData\Roaming\npm\node_modules\stream-adventure unbuild
+38 info preuninstall stream-adventure@2.5.0
+39 info uninstall stream-adventure@2.5.0
+40 verbose true,C:\Users\wing\AppData\Roaming\npm\node_modules,C:\Users\wing\AppData\Roaming\npm\node_modules unbuild stream-adventure@2.5.0
+41 verbose C:\Users\wing\AppData\Roaming\npm,[object Object] binRoot
+42 info postuninstall stream-adventure@2.5.0
+43 verbose tar unpack C:\Users\wing\AppData\Roaming\npm-cache\stream-adventure\2.4.3\package.tgz
+44 silly lockFile 0b4a3ecf-pm-node-modules-stream-adventure tar://C:\Users\wing\AppData\Roaming\npm\node_modules\stream-adventure
+45 verbose lock tar://C:\Users\wing\AppData\Roaming\npm\node_modules\stream-adventure C:\Users\wing\AppData\Roaming\npm-cache\0b4a3ecf-pm-node-modules-stream-adventure.lock
+46 silly lockFile 843c1e5b-ream-adventure-2-4-3-package-tgz tar://C:\Users\wing\AppData\Roaming\npm-cache\stream-adventure\2.4.3\package.tgz
+47 verbose lock tar://C:\Users\wing\AppData\Roaming\npm-cache\stream-adventure\2.4.3\package.tgz C:\Users\wing\AppData\Roaming\npm-cache\843c1e5b-ream-adventure-2-4-3-package-tgz.lock
+48 silly lockFile 0b4a3ecf-pm-node-modules-stream-adventure tar://C:\Users\wing\AppData\Roaming\npm\node_modules\stream-adventure
+49 silly lockFile 0b4a3ecf-pm-node-modules-stream-adventure tar://C:\Users\wing\AppData\Roaming\npm\node_modules\stream-adventure
+50 silly lockFile 843c1e5b-ream-adventure-2-4-3-package-tgz tar://C:\Users\wing\AppData\Roaming\npm-cache\stream-adventure\2.4.3\package.tgz
+51 silly lockFile 843c1e5b-ream-adventure-2-4-3-package-tgz tar://C:\Users\wing\AppData\Roaming\npm-cache\stream-adventure\2.4.3\package.tgz
+52 info C:\Users\wing\AppData\Roaming\npm\node_modules\stream-adventure unbuild
+53 error error rolling back Error: EPERM, unlink 'C:\Users\wing\AppData\Roaming\npm\node_modules\stream-adventure'
+53 error error rolling back  stream-adventure@2.4.3 { [Error: EPERM, unlink 'C:\Users\wing\AppData\Roaming\npm\node_modules\stream-adventure']
+53 error error rolling back   errno: 50,
+53 error error rolling back   code: 'EPERM',
+53 error error rolling back   path: 'C:\\Users\\wing\\AppData\\Roaming\\npm\\node_modules\\stream-adventure' }
+54 error Error: EPERM, unlink 'C:\Users\wing\AppData\Roaming\npm\node_modules\stream-adventure'
+54 error  { [Error: EPERM, unlink 'C:\Users\wing\AppData\Roaming\npm\node_modules\stream-adventure']
+54 error   errno: 50,
+54 error   code: 'EPERM',
+54 error   path: 'C:\\Users\\wing\\AppData\\Roaming\\npm\\node_modules\\stream-adventure' }
+55 error Please try running this command again as root/Administrator.
+56 error System Windows_NT 6.1.7601
+57 error command "D:\\nodejs\\\\node.exe" "D:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "stream-adventure@2.4.3"
+58 error cwd F:\nodejsspace\test\stream-adventure
+59 error node -v v0.10.29
+60 error npm -v 1.4.14
+61 error path C:\Users\wing\AppData\Roaming\npm\node_modules\stream-adventure
+62 error code EPERM
+63 error errno 50
+64 error stack Error: EPERM, unlink 'C:\Users\wing\AppData\Roaming\npm\node_modules\stream-adventure'
+65 verbose exit [ 50, true ]
